@@ -12,7 +12,7 @@ const ProjectImg: React.FC<Img> = ({ Src, Title, Src2, Title2 }) => {
 
     return (
         <>
-            <div className="group transition-all hover:rounded-[70px] hover:cursor-pointer w-1/2 bg-purple-900 relative overflow-hidden">
+            <div className="group transition-all hover:rounded-[70px] hover:cursor-pointer lg:w-1/2 bg-purple-900 relative overflow-hidden">
                 <Image
                     src={Src}
                     alt="image"
@@ -28,7 +28,7 @@ const ProjectImg: React.FC<Img> = ({ Src, Title, Src2, Title2 }) => {
                 </div>
             </div>
 
-            <div className="group transition-all hover:rounded-[70px] hover:cursor-pointer w-1/2 bg-yellow-300 relative overflow-hidden">
+            <div className="group transition-all hover:rounded-[70px] hover:cursor-pointer lg:w-1/2 bg-yellow-300 relative overflow-hidden">
                 <Image
                     src={Src2}
                     alt="image"

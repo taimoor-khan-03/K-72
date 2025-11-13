@@ -71,14 +71,14 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
     console.log(ShowMenu)
 
     return (
-        <div className="text-white h-screen w-screen absolute  overflow-x-hidden z-10">
+        <div className="text-white h-screen w-screen fixed top-0 overflow-x-hidden z-50">
             <div className="h-screen w-full fixed">
                 <div className="h-full w-full flex">
-                    <div className="stairing h-full w-1/5 bg-red-900"></div>
-                    <div className="stairing h-full w-1/5  bg-red-900"></div>
-                    <div className="stairing h-full w-1/5 bg-red-900"></div>
-                    <div className="stairing h-full w-1/5 bg-red-900"></div>
-                    <div className="stairing h-full w-1/5 bg-red-900"></div>
+                    <div className="stairing h-full w-1/5 bg-black"></div>
+                    <div className="stairing h-full w-1/5  bg-black"></div>
+                    <div className="stairing h-full w-1/5 bg-black"></div>
+                    <div className="stairing h-full w-1/5 bg-black"></div>
+                    <div className="stairing h-full w-1/5 bg-black"></div>
                 </div>
             </div>
 
