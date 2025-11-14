@@ -12,9 +12,9 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
     ShowMenu,
     setShowMenu,
 }) => {
-    const img1 = "/images/man.jpg";
-    const img2 = "/images/women.jpg";
-    const [close, setClose] = useState(true);
+    const img1 = "/images/card6.jpg";
+    const img2 = "/images/card.jpg";
+
 
     const tl = useRef<gsap.core.Timeline | null>(null); // store timeline
 
@@ -27,7 +27,7 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
             },
         });
         tl.current.from(".link", {
-            opacity: 0,
+            opacity: 0,   
             rotateX: 90,
             stagger: {
                 amount: 0.3,
@@ -115,7 +115,7 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
                     <h1 className="font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-5 text-center">
                         Work
                     </h1>
-                    <div className="absolute flex top-0 bg-[#D3FD50] text-black opacity-0 hover:opacity-100">
+                    <div className="transition-all duration-1000 ease-in-out absolute flex top-0 bg-[#D3FD50] text-black opacity-0 hover:opacity-100">
                         <div className="flex  items-center moveX">
                             <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center ">
                                 See everything
@@ -136,7 +136,7 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
                                 <Image
                                     width={300}
                                     height={300}
-                                    src={img1}
+                                    src={img2}
                                     alt="logo"
                                     className="h-50 w-full object-cover"
                                 />
@@ -163,7 +163,7 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
                                 <Image
                                     width={300}
                                     height={300}
-                                    src={img1}
+                                    src={img2}
                                     alt="logo"
                                     className="h-50 w-full object-cover"
                                 />
@@ -176,7 +176,7 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
                     <h1 className="font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-5 text-center">
                         Agency
                     </h1>
-                    <div className="absolute flex top-0 bg-[#D3FD50] text-black opacity-0 hover:opacity-100">
+                    <div className="transition-all duration-1000 ease-in-out absolute flex top-0 bg-[#D3FD50] text-black opacity-0 hover:opacity-100">
                         <div className="flex  items-center moveX">
                             <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center ">
                                 Know us
@@ -197,7 +197,7 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
                                 <Image
                                     width={300}
                                     height={300}
-                                    src={img1}
+                                    src={img2}
                                     alt="logo"
                                     className="h-50 w-full object-cover"
                                 />
@@ -224,7 +224,7 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
                                 <Image
                                     width={300}
                                     height={300}
-                                    src={img1}
+                                    src={img2}
                                     alt="logo"
                                     className="h-50 w-full object-cover"
                                 />
@@ -237,7 +237,7 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
                     <h1 className="font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-5 text-center">
                         contact
                     </h1>
-                    <div className="absolute flex top-0 bg-[#D3FD50] text-black opacity-0 hover:opacity-100">
+                    <div className="transition-all duration-1000 ease-in-out absolute flex top-0 bg-[#D3FD50] text-black opacity-0 hover:opacity-100">
                         <div className="flex  items-center moveX">
                             <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center ">
                                 Send us a fax
@@ -246,7 +246,7 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
                                 <Image
                                     width={300}
                                     height={300}
-                                    src={img1}
+                                    src={img2}
                                     alt="logo"
                                     className="h-50 w-full object-cover"
                                 />
@@ -273,7 +273,7 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
                                 <Image
                                     width={300}
                                     height={300}
-                                    src={img1}
+                                    src={img2}
                                     alt="logo"
                                     className="h-50 w-full object-cover"
                                 />
@@ -298,7 +298,7 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
                     <h1 className="font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-5 text-center">
                         Blog
                     </h1>
-                    <div className="absolute flex top-0 bg-[#D3FD50] text-black opacity-0 hover:opacity-100">
+                    <div className="transition-all duration-1000 ease-in-out absolute flex top-0 bg-[#D3FD50] text-black opacity-0 hover:opacity-100">
                         <div className="flex  items-center moveX">
                             <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center ">
                                 Read articles
@@ -307,7 +307,7 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
                                 <Image
                                     width={300}
                                     height={300}
-                                    src={img1}
+                                    src={img2}
                                     alt="logo"
                                     className="h-50 w-full object-cover"
                                 />
@@ -334,7 +334,7 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
                                 <Image
                                     width={300}
                                     height={300}
-                                    src={img1}
+                                    src={img2}
                                     alt="logo"
                                     className="h-50 w-full object-cover"
                                 />
