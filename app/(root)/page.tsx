@@ -11,7 +11,7 @@ const HomePage = () => {
         <HomeHeroText />
         <HomeBottomText/>
       </div>
-      <div className="absolute text-xs w-45 lg:max-w-xs  right-0 lg:bottom-1/3 bottom-1/4">
+      <div className="absolute text-xs w-45 lg:max-w-xs  right-0 lg:bottom-1/3 bottom-1/4 text-white">
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;K72 is an agency that builds brands from every angle. Today, tomorrow and years from now. We think the best sparks fly when comfort zones get left behind and friction infuses our strategies, brands and communications with real feeling. We’re transparent, honest and say what we mean, and when we believe in something, we’re all in.</p>
       </div>
     </div>
