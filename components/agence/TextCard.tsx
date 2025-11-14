@@ -43,7 +43,7 @@ const TextCard = () => {
     return (
         <div className="section1">
             {/* Image Div */}
-            <div ref={imageDivRef} className=" z-1 top-155 md:top-155 lg:top-70 2xl:top-50 left-[30vw] h-[18vh] md:h-[22vh] lg:h-[28vh] xl:h-[25vh] 2xl:h-[37vh] w-[50vw] md:w-[33vw] lg:w-[23vw] xl:w-[20vw] 2xl:w-[15vw] overflow-hidden absolute rounded-4xl">
+            <div ref={imageDivRef} className=" z-1 top-155 md:top-155 lg:top-70 2xl:top-50 left-[30vw] md:h-[22vh] lg:h-[28vh] xl:h-[25vh] 2xl:h-[37vh] md:w-[33vw] lg:w-[23vw] xl:w-[20vw] 2xl:w-[15vw] overflow-hidden absolute rounded-4xl">
                 <Image
                     ref ={imageRef}
                     src={ peopleImages[imageIndex] }
