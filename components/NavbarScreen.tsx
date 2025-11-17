@@ -2,6 +2,8 @@ import Image from "next/image";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 import { useRef, useState } from "react";
+import MontrealTime from "./Montreal";
+import Link from "next/link";
 
 interface NavbarScreenProps {
     ShowMenu: boolean;
@@ -15,7 +17,6 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
     const img1 = "/images/card6.jpg";
     const img2 = "/images/card.jpg";
 
-
     const tl = useRef<gsap.core.Timeline | null>(null); // store timeline
 
     const gsapAnimation = () => {
@@ -27,7 +28,7 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
             },
         });
         tl.current.from(".link", {
-            opacity: 0,   
+            opacity: 0,
             rotateX: 90,
             stagger: {
                 amount: 0.3,
@@ -68,7 +69,7 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
         }
     }, [ShowMenu]);
 
-    console.log(ShowMenu)
+    console.log(ShowMenu);
 
     return (
         <div className="text-white h-screen w-screen fixed top-0 overflow-x-hidden z-50">
@@ -83,7 +84,7 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
             </div>
 
             <div className="navlink flex w-full justify-between items-start p-5">
-                <div className=" w-[18vw] md:w-30 z-20">
+                <div className=" w-[18vw] md:w-30 z-20 cursor-pointer">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 103 44"
@@ -353,6 +354,26 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <div className="link w-full text-4xl absolute bottom-2 flex justify-between text-white z-60 px-5">
+                <div className="flex items-center">
+                    <MontrealTime />
+                </div>
+                <div className="">
+                    <Link href="/" className="pill">
+                        FB
+                    </Link>
+                    <Link href="/" className="pill">
+                        IG
+                    </Link>
+                    <Link href="/" className="pill">
+                        IN
+                    </Link>
+                    <Link href="/" className="pill">
+                        BE
+                    </Link>
                 </div>
             </div>
         </div>

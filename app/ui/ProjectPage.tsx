@@ -18,7 +18,7 @@ const ProjectPage = () => {
                 trigger: '.lol',
                 
                 start:'top 100%',
-                end:'top -250%',
+                end:'top -150%',
                 scrub: true
             }
         });

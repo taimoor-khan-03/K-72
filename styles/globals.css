@@ -27,7 +27,14 @@ body {
 
 .moveX {
     animation-name: moveAnimation;
-    animation-duration: 10s;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.moveXReverse {
+    animation-name: moveAnimationReverse;
+    animation-duration: 50s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -40,7 +47,74 @@ body {
         transform: translateX(-100%);
     }
 }
+
+@keyframes moveAnimationReverse {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
 html, body {
   overflow-x: hidden;  
   width: 100%;
 }
+
+
+.footer{
+    width: 100%;
+    background: #000;
+    color: #fff;
+    padding: 40px 40px 20px ;
+}
+
+.footer-social{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+}
+
+.pill{
+    border:3px  solid #fff;
+    padding: 15px 35px;
+    border-radius: 50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.pill:hover{
+    background: #fff;
+    color: #000;
+    transition: 0.3s ;
+}
+
+.pill .contact {
+    padding: 15px 50px ;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  opacity: 0.75;
+  text-transform: uppercase;
+}
+
+.footer-center a {
+  margin: 0 12px;
+  cursor: pointer;
+}
+
+.footer-right a {
+  cursor: pointer;
+}
+
+
+
+
