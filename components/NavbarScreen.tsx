@@ -117,12 +117,12 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
                         <h1 className="font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-5 text-center">
                             Work
                         </h1>
-                        <div className="transition-all duration-1000 ease-in-out absolute flex top-0 bg-[#D3FD50] text-black opacity-0 hover:opacity-100">
+                        <div className="h-full transition-all duration-1000 ease-in-out absolute flex top-0 bg-[#D3FD50] text-black opacity-0 hover:opacity-100">
                             <div className="flex  items-center moveX">
-                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center ">
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-3 lg:pt-5 text-center ">
                                     See everything
                                 </h2>
-                                <div className="rounded-full w-40 h-20 overflow-hidden">
+                                <div className="rounded-full w-40 h-15 lg:h-20 overflow-hidden">
                                     <Image
                                         width={300}
                                         height={300}
@@ -131,10 +131,10 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
                                         className="h-50 w-full object-cover"
                                     />
                                 </div>
-                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center">
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-3 lg:pt-5 text-center">
                                     See everything
                                 </h2>
-                                <div className="rounded-full w-40 h-20 overflow-hidden ">
+                                <div className="rounded-full w-40 h-15 lg:h-20 overflow-hidden ">
                                     <Image
                                         width={300}
                                         height={300}
@@ -146,10 +146,10 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
                             </div>
 
                             <div className="flex  items-center moveX">
-                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center ">
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-3 lg:pt-5 text-center ">
                                     See everything
                                 </h2>
-                                <div className="rounded-full w-40 h-20 overflow-hidden ">
+                                <div className="rounded-full w-40 h-15 lg:h-20 overflow-hidden ">
                                     <Image
                                         width={300}
                                         height={300}
@@ -158,10 +158,10 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
                                         className="h-50 w-full object-cover"
                                     />
                                 </div>
-                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-5 text-center">
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-3 lg:pt-5 text-center">
                                     See everything
                                 </h2>
-                                <div className="rounded-full w-40 h-20 overflow-hidden ">
+                                <div className="rounded-full w-40 h-15 lg:h-20 overflow-hidden ">
                                     <Image
                                         width={300}
                                         height={300}
@@ -180,12 +180,12 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
                         <h1 className="font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-5 text-center">
                             Agency
                         </h1>
-                        <div className="transition-all duration-1000 ease-in-out absolute flex top-0 bg-[#D3FD50] text-black opacity-0 hover:opacity-100">
+                        <div className="h-full transition-all duration-1000 ease-in-out absolute flex top-0 bg-[#D3FD50] text-black opacity-0 hover:opacity-100">
                             <div className="flex  items-center moveX">
-                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center ">
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-3 lg:pt-5 text-center ">
                                     Know us
                                 </h2>
-                                <div className="rounded-full w-40 h-20 overflow-hidden">
+                                <div className="rounded-full w-40 h-15 lg:h-20 overflow-hidden">
                                     <Image
                                         width={300}
                                         height={300}
@@ -194,10 +194,34 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
                                         className="h-50 w-full object-cover"
                                     />
                                 </div>
-                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center">
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-3 lg:pt-5 text-center">
                                     Know us
                                 </h2>
-                                <div className="rounded-full w-40 h-20 overflow-hidden ">
+                                <div className="rounded-full w-40 h-15 lg:h-20 overflow-hidden ">
+                                    <Image
+                                        width={300}
+                                        height={300}
+                                        src={img2}
+                                        alt="logo"
+                                        className="h-50 w-full object-cover"
+                                    />
+                                </div>
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-3 lg:pt-5 text-center ">
+                                    Know us
+                                </h2>
+                                <div className="rounded-full w-40 h-15 lg:h-20 overflow-hidden">
+                                    <Image
+                                        width={300}
+                                        height={300}
+                                        src={img1}
+                                        alt="logo"
+                                        className="h-50 w-full object-cover"
+                                    />
+                                </div>
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-3 lg:pt-5 text-center ">
+                                    Know us
+                                </h2>
+                                <div className="rounded-full w-40 h-15 lg:h-20 overflow-hidden">
                                     <Image
                                         width={300}
                                         height={300}
@@ -209,10 +233,10 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
                             </div>
 
                             <div className="flex  items-center moveX">
-                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center ">
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-3 lg:pt-5 text-center ">
                                     Know us
                                 </h2>
-                                <div className="rounded-full w-40 h-20 overflow-hidden ">
+                                <div className="rounded-full w-40 h-15 lg:h-20 overflow-hidden ">
                                     <Image
                                         width={300}
                                         height={300}
@@ -221,10 +245,10 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
                                         className="h-50 w-full object-cover"
                                     />
                                 </div>
-                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-5 text-center">
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-3 lg:pt-5 text-center">
                                     Know us
                                 </h2>
-                                <div className="rounded-full w-40 h-20 overflow-hidden ">
+                                <div className="rounded-full w-40 h-15 lg:h-20 overflow-hidden ">
                                     <Image
                                         width={300}
                                         height={300}
@@ -243,12 +267,12 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
                         <h1 className="font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-5 text-center">
                             contact
                         </h1>
-                        <div className="transition-all duration-1000 ease-in-out absolute flex top-0 bg-[#D3FD50] text-black opacity-0 hover:opacity-100">
+                        <div className="h-full transition-all duration-1000 ease-in-out absolute flex top-0 bg-[#D3FD50] text-black opacity-0 hover:opacity-100">
                             <div className="flex  items-center moveX">
-                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center ">
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-3 lg:pt-5 text-center ">
                                     Send us a fax
                                 </h2>
-                                <div className="rounded-full w-40 h-20 overflow-hidden">
+                                <div className="rounded-full w-40 h-15 lg:h-20 overflow-hidden">
                                     <Image
                                         width={300}
                                         height={300}
@@ -257,10 +281,10 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
                                         className="h-50 w-full object-cover"
                                     />
                                 </div>
-                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center">
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-3 lg:pt-5 text-center">
                                     Send us a fax
                                 </h2>
-                                <div className="rounded-full w-40 h-20 overflow-hidden ">
+                                <div className="rounded-full w-40 h-15 lg:h-20 overflow-hidden ">
                                     <Image
                                         width={300}
                                         height={300}
@@ -272,10 +296,10 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
                             </div>
 
                             <div className="flex  items-center moveX">
-                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center ">
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-3 lg:pt-5 text-center ">
                                     Send us a fax
                                 </h2>
-                                <div className="rounded-full w-40 h-20 overflow-hidden ">
+                                <div className="rounded-full w-40 h-15 lg:h-20 overflow-hidden ">
                                     <Image
                                         width={300}
                                         height={300}
@@ -284,10 +308,10 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
                                         className="h-50 w-full object-cover"
                                     />
                                 </div>
-                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-5 text-center">
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-3 lg:pt-5 text-center">
                                     Send us a fax
                                 </h2>
-                                <div className="rounded-full w-40 h-20 overflow-hidden ">
+                                <div className="rounded-full w-40 h-15 lg:h-20 overflow-hidden ">
                                     <Image
                                         width={300}
                                         height={300}
@@ -306,12 +330,12 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
                         <h1 className="font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-5 text-center">
                             Blog
                         </h1>
-                        <div className="transition-all duration-1000 ease-in-out absolute flex top-0 bg-[#D3FD50] text-black opacity-0 hover:opacity-100">
+                        <div className="h-full transition-all duration-1000 ease-in-out absolute flex top-0 bg-[#D3FD50] text-black opacity-0 hover:opacity-100">
                             <div className="flex  items-center moveX">
-                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center ">
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-3 lg:pt-5 text-center ">
                                     Read articles
                                 </h2>
-                                <div className="rounded-full w-40 h-20 overflow-hidden">
+                                <div className="rounded-full w-40 h-15 lg:h-20 overflow-hidden">
                                     <Image
                                         width={300}
                                         height={300}
@@ -320,10 +344,10 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
                                         className="h-50 w-full object-cover"
                                     />
                                 </div>
-                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center">
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-3 lg:pt-5 text-center">
                                     Read articles
                                 </h2>
-                                <div className="rounded-full w-40 h-20 overflow-hidden ">
+                                <div className="rounded-full w-40 h-15 lg:h-20 overflow-hidden ">
                                     <Image
                                         width={300}
                                         height={300}
@@ -335,10 +359,10 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
                             </div>
 
                             <div className="flex  items-center moveX">
-                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center ">
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-3 lg:pt-5 text-center ">
                                     Read articles
                                 </h2>
-                                <div className="rounded-full w-40 h-20 overflow-hidden ">
+                                <div className="rounded-full w-40 h-15 lg:h-20 overflow-hidden ">
                                     <Image
                                         width={300}
                                         height={300}
@@ -347,10 +371,10 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
                                         className="h-50 w-full object-cover"
                                     />
                                 </div>
-                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-5 text-center">
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-3 lg:pt-5 text-center">
                                     Read articles
                                 </h2>
-                                <div className="rounded-full w-40 h-20 overflow-hidden ">
+                                <div className="rounded-full w-40 h-15 lg:h-20 overflow-hidden ">
                                     <Image
                                         width={300}
                                         height={300}
