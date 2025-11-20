@@ -5,19 +5,20 @@ import Link from "next/link";
 interface NavbarProps {
     ShowMenu: (value: boolean) => void;
     TextColor?: string;
+    bgColor?: string;
 }
 
-const Navbar: React.FC<NavbarProps> = ({ ShowMenu, TextColor = "black" }) => {
+const Navbar: React.FC<NavbarProps> = ({ ShowMenu, TextColor = "black", bgColor }) => {
     const navRef = useRef<HTMLDivElement | null>(null);
 
     return (
-        <div className="flex flex-row fixed w-full z-50 top-0 justify-between items-start">
-            <div className="py-6 lg:px-5 px-1">
+        <div className={`flex flex-row h-[7.5vh] fixed w-full z-50 top-0 justify-between items-start ${bgColor}`}>
+            <div className="py-6 lg:px-4 px-1">
                 <Link href="/">
                     <div className="lg:w-28 w-20">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 103 44"
+                            viewBox="0 0 160 44"
                             className="w-full"
                         >
                             <path

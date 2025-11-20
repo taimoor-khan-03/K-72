@@ -6,12 +6,12 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer-social">
-                <Link href='/' className="pill">FB</Link>
-                <Link href='/' className="pill">IG</Link>
-                <Link href='/' className="pill">IN</Link>
-                <Link href='/' className="pill">BE</Link>
+                <Link href='https://facebook.com' className="pill">FB</Link>
+                <Link href='https://instagram.com' className="pill">IG</Link>
+                <Link href='https://linkedin.com' className="pill">IN</Link>
+                <Link href='https://behance.net' className="pill">BE</Link>
 
-                <Link href='/' className="pill contact">CONTACT ♥</Link>
+                <Link href='/contact' className="pill contact">CONTACT ♥</Link>
             </div>
 
             <div className="footer-bottom">

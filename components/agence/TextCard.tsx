@@ -275,20 +275,30 @@ const TextCard = () => {
                 </div>
             </div>
 
-            <div className="section3 h-screen">
+            <div className="section3 h-[70vh]">
                 {/* hovering bars */}
-                <div className="border-t border-b border-white w-full h-[70px] relative transition-colors duration-500">
+                <div className="border-t border-b border-white w-full h-[70px] relative transition-colors duration-500 hover:bg-[#D3FD50] hover:text-black cursor-pointer">
                     <div className="h-full w-full flex justify-between items-center px-8 hover:font-bold">
                         <h1>Copywriter</h1>
                         <h3 className="text-3xl">Camille Brière</h3>
                     </div>
-                    <div className="absolute h-[60vh]  w-[20vw] bg-red-200 left-1/3 -translate-x-1/2  -translate-y-1/2 z-10 overflow-hidden rounded-3xl opacity-0 hover:opacity-100 transition-opacity duration-500">
-                        <Image
-                            src="/images/man.jpg"
-                            alt="#"
-                            fill
-                            className="object-cover"
-                        ></Image>
+                </div>
+                <div className="border-t border-b border-white w-full h-[70px] relative transition-colors duration-500 hover:bg-[#D3FD50] hover:text-black cursor-pointer">
+                    <div className="h-full w-full flex justify-between items-center px-8 hover:font-bold">
+                        <h1>Brand Storyteller</h1>
+                        <h3 className="text-3xl">Milo Davenporte</h3>
+                    </div>
+                </div>
+                <div className="border-t border-b border-white w-full h-[70px] relative transition-colors duration-500 hover:bg-[#D3FD50] hover:text-black cursor-pointer">
+                    <div className="h-full w-full flex justify-between items-center px-8 hover:font-bold">
+                        <h1>Content Strategist</h1>
+                        <h3 className="text-3xl">Ava Morrison</h3>
+                    </div>
+                </div>
+                <div className="border-t border-b border-white w-full h-[70px] relative transition-colors duration-500 hover:bg-[#D3FD50] hover:text-black cursor-pointer">
+                    <div className="h-full w-full flex justify-between items-center px-8 hover:font-bold">
+                        <h1>Copy Lead</h1>
+                        <h3 className="text-3xl">Jonas Vinter</h3>
                     </div>
                 </div>
             </div>

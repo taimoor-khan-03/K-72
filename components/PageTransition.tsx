@@ -24,7 +24,8 @@ const PageTransition = ({ children }: { children: React.ReactNode }) => {
         return () => clearTimeout(timeout);
     }, [Pathname]);
 
-    const navbarTheme = Pathname === "/" ? "white" : Pathname === "/project" || Pathname === "/agence" ? 'black' : 'white' ; 
+    const Color = Pathname === "/project" ? "bg-white" : undefined;
+    const navbarTheme = Pathname === "/" || Pathname === "/contact"  ? "white" : Pathname === "/project" || Pathname === "/agence" || Pathname === "/blog" ? 'black' : 'white' ; 
 
     return (
         <>
@@ -39,7 +40,7 @@ const PageTransition = ({ children }: { children: React.ReactNode }) => {
                 }
             >
                 {showMenu && <NavbarScreen  ShowMenu={showMenu} setShowMenu={setShowMenu}/> }
-                { !showMenu && <Navbar ShowMenu= { setShowMenu } TextColor={navbarTheme}/>}
+                { !showMenu && <Navbar ShowMenu= { setShowMenu } TextColor={navbarTheme} bgColor={Color}/>}
                 {children}
                 {isFooter && <Footer />}
             </div>

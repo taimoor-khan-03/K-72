@@ -112,266 +112,274 @@ const NavbarScreen: React.FC<NavbarScreenProps> = ({
             </div>
 
             <div className="py-30 ">
-                <div className="link origin-top relative border-y border-white">
-                    <h1 className="font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-5 text-center">
-                        Work
-                    </h1>
-                    <div className="transition-all duration-1000 ease-in-out absolute flex top-0 bg-[#D3FD50] text-black opacity-0 hover:opacity-100">
-                        <div className="flex  items-center moveX">
-                            <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center ">
-                                See everything
-                            </h2>
-                            <div className="rounded-full w-40 h-20 overflow-hidden">
-                                <Image
-                                    width={300}
-                                    height={300}
-                                    src={img1}
-                                    alt="logo"
-                                    className="h-50 w-full object-cover"
-                                />
+                <Link href="/project" onClick={() => setShowMenu(false)}>
+                    <div className="link origin-top relative border-y border-white">
+                        <h1 className="font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-5 text-center">
+                            Work
+                        </h1>
+                        <div className="transition-all duration-1000 ease-in-out absolute flex top-0 bg-[#D3FD50] text-black opacity-0 hover:opacity-100">
+                            <div className="flex  items-center moveX">
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center ">
+                                    See everything
+                                </h2>
+                                <div className="rounded-full w-40 h-20 overflow-hidden">
+                                    <Image
+                                        width={300}
+                                        height={300}
+                                        src={img1}
+                                        alt="logo"
+                                        className="h-50 w-full object-cover"
+                                    />
+                                </div>
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center">
+                                    See everything
+                                </h2>
+                                <div className="rounded-full w-40 h-20 overflow-hidden ">
+                                    <Image
+                                        width={300}
+                                        height={300}
+                                        src={img2}
+                                        alt="logo"
+                                        className="h-50 w-full object-cover"
+                                    />
+                                </div>
                             </div>
-                            <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center">
-                                See everything
-                            </h2>
-                            <div className="rounded-full w-40 h-20 overflow-hidden ">
-                                <Image
-                                    width={300}
-                                    height={300}
-                                    src={img2}
-                                    alt="logo"
-                                    className="h-50 w-full object-cover"
-                                />
-                            </div>
-                        </div>
 
-                        <div className="flex  items-center moveX">
-                            <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center ">
-                                See everything
-                            </h2>
-                            <div className="rounded-full w-40 h-20 overflow-hidden ">
-                                <Image
-                                    width={300}
-                                    height={300}
-                                    src={img1}
-                                    alt="logo"
-                                    className="h-50 w-full object-cover"
-                                />
-                            </div>
-                            <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-5 text-center">
-                                See everything
-                            </h2>
-                            <div className="rounded-full w-40 h-20 overflow-hidden ">
-                                <Image
-                                    width={300}
-                                    height={300}
-                                    src={img2}
-                                    alt="logo"
-                                    className="h-50 w-full object-cover"
-                                />
+                            <div className="flex  items-center moveX">
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center ">
+                                    See everything
+                                </h2>
+                                <div className="rounded-full w-40 h-20 overflow-hidden ">
+                                    <Image
+                                        width={300}
+                                        height={300}
+                                        src={img1}
+                                        alt="logo"
+                                        className="h-50 w-full object-cover"
+                                    />
+                                </div>
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-5 text-center">
+                                    See everything
+                                </h2>
+                                <div className="rounded-full w-40 h-20 overflow-hidden ">
+                                    <Image
+                                        width={300}
+                                        height={300}
+                                        src={img2}
+                                        alt="logo"
+                                        className="h-50 w-full object-cover"
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </Link>
 
-                <div className="link origin-top relative border-y border-white">
-                    <h1 className="font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-5 text-center">
-                        Agency
-                    </h1>
-                    <div className="transition-all duration-1000 ease-in-out absolute flex top-0 bg-[#D3FD50] text-black opacity-0 hover:opacity-100">
-                        <div className="flex  items-center moveX">
-                            <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center ">
-                                Know us
-                            </h2>
-                            <div className="rounded-full w-40 h-20 overflow-hidden">
-                                <Image
-                                    width={300}
-                                    height={300}
-                                    src={img1}
-                                    alt="logo"
-                                    className="h-50 w-full object-cover"
-                                />
+                <Link href="/agence" onClick={() => setShowMenu(false)}>
+                    <div className="link origin-top relative border-y border-white">
+                        <h1 className="font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-5 text-center">
+                            Agency
+                        </h1>
+                        <div className="transition-all duration-1000 ease-in-out absolute flex top-0 bg-[#D3FD50] text-black opacity-0 hover:opacity-100">
+                            <div className="flex  items-center moveX">
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center ">
+                                    Know us
+                                </h2>
+                                <div className="rounded-full w-40 h-20 overflow-hidden">
+                                    <Image
+                                        width={300}
+                                        height={300}
+                                        src={img1}
+                                        alt="logo"
+                                        className="h-50 w-full object-cover"
+                                    />
+                                </div>
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center">
+                                    Know us
+                                </h2>
+                                <div className="rounded-full w-40 h-20 overflow-hidden ">
+                                    <Image
+                                        width={300}
+                                        height={300}
+                                        src={img2}
+                                        alt="logo"
+                                        className="h-50 w-full object-cover"
+                                    />
+                                </div>
                             </div>
-                            <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center">
-                                Know us
-                            </h2>
-                            <div className="rounded-full w-40 h-20 overflow-hidden ">
-                                <Image
-                                    width={300}
-                                    height={300}
-                                    src={img2}
-                                    alt="logo"
-                                    className="h-50 w-full object-cover"
-                                />
-                            </div>
-                        </div>
 
-                        <div className="flex  items-center moveX">
-                            <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center ">
-                                Know us
-                            </h2>
-                            <div className="rounded-full w-40 h-20 overflow-hidden ">
-                                <Image
-                                    width={300}
-                                    height={300}
-                                    src={img1}
-                                    alt="logo"
-                                    className="h-50 w-full object-cover"
-                                />
-                            </div>
-                            <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-5 text-center">
-                                Know us
-                            </h2>
-                            <div className="rounded-full w-40 h-20 overflow-hidden ">
-                                <Image
-                                    width={300}
-                                    height={300}
-                                    src={img2}
-                                    alt="logo"
-                                    className="h-50 w-full object-cover"
-                                />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="link origin-top relative border-y border-white">
-                    <h1 className="font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-5 text-center">
-                        contact
-                    </h1>
-                    <div className="transition-all duration-1000 ease-in-out absolute flex top-0 bg-[#D3FD50] text-black opacity-0 hover:opacity-100">
-                        <div className="flex  items-center moveX">
-                            <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center ">
-                                Send us a fax
-                            </h2>
-                            <div className="rounded-full w-40 h-20 overflow-hidden">
-                                <Image
-                                    width={300}
-                                    height={300}
-                                    src={img2}
-                                    alt="logo"
-                                    className="h-50 w-full object-cover"
-                                />
-                            </div>
-                            <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center">
-                                Send us a fax
-                            </h2>
-                            <div className="rounded-full w-40 h-20 overflow-hidden ">
-                                <Image
-                                    width={300}
-                                    height={300}
-                                    src={img1}
-                                    alt="logo"
-                                    className="h-50 w-full object-cover"
-                                />
-                            </div>
-                        </div>
-
-                        <div className="flex  items-center moveX">
-                            <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center ">
-                                Send us a fax
-                            </h2>
-                            <div className="rounded-full w-40 h-20 overflow-hidden ">
-                                <Image
-                                    width={300}
-                                    height={300}
-                                    src={img2}
-                                    alt="logo"
-                                    className="h-50 w-full object-cover"
-                                />
-                            </div>
-                            <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-5 text-center">
-                                Send us a fax
-                            </h2>
-                            <div className="rounded-full w-40 h-20 overflow-hidden ">
-                                <Image
-                                    width={300}
-                                    height={300}
-                                    src={img1}
-                                    alt="logo"
-                                    className="h-50 w-full object-cover"
-                                />
+                            <div className="flex  items-center moveX">
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center ">
+                                    Know us
+                                </h2>
+                                <div className="rounded-full w-40 h-20 overflow-hidden ">
+                                    <Image
+                                        width={300}
+                                        height={300}
+                                        src={img1}
+                                        alt="logo"
+                                        className="h-50 w-full object-cover"
+                                    />
+                                </div>
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-5 text-center">
+                                    Know us
+                                </h2>
+                                <div className="rounded-full w-40 h-20 overflow-hidden ">
+                                    <Image
+                                        width={300}
+                                        height={300}
+                                        src={img2}
+                                        alt="logo"
+                                        className="h-50 w-full object-cover"
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </Link>
 
-                <div className="link origin-top relative border-y border-white">
-                    <h1 className="font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-5 text-center">
-                        Blog
-                    </h1>
-                    <div className="transition-all duration-1000 ease-in-out absolute flex top-0 bg-[#D3FD50] text-black opacity-0 hover:opacity-100">
-                        <div className="flex  items-center moveX">
-                            <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center ">
-                                Read articles
-                            </h2>
-                            <div className="rounded-full w-40 h-20 overflow-hidden">
-                                <Image
-                                    width={300}
-                                    height={300}
-                                    src={img2}
-                                    alt="logo"
-                                    className="h-50 w-full object-cover"
-                                />
+                <Link href="/contact" onClick={() => setShowMenu(false)}>
+                    <div className="link origin-top relative border-y border-white">
+                        <h1 className="font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-5 text-center">
+                            contact
+                        </h1>
+                        <div className="transition-all duration-1000 ease-in-out absolute flex top-0 bg-[#D3FD50] text-black opacity-0 hover:opacity-100">
+                            <div className="flex  items-center moveX">
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center ">
+                                    Send us a fax
+                                </h2>
+                                <div className="rounded-full w-40 h-20 overflow-hidden">
+                                    <Image
+                                        width={300}
+                                        height={300}
+                                        src={img2}
+                                        alt="logo"
+                                        className="h-50 w-full object-cover"
+                                    />
+                                </div>
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center">
+                                    Send us a fax
+                                </h2>
+                                <div className="rounded-full w-40 h-20 overflow-hidden ">
+                                    <Image
+                                        width={300}
+                                        height={300}
+                                        src={img1}
+                                        alt="logo"
+                                        className="h-50 w-full object-cover"
+                                    />
+                                </div>
                             </div>
-                            <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center">
-                                Read articles
-                            </h2>
-                            <div className="rounded-full w-40 h-20 overflow-hidden ">
-                                <Image
-                                    width={300}
-                                    height={300}
-                                    src={img1}
-                                    alt="logo"
-                                    className="h-50 w-full object-cover"
-                                />
-                            </div>
-                        </div>
 
-                        <div className="flex  items-center moveX">
-                            <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center ">
-                                Read articles
-                            </h2>
-                            <div className="rounded-full w-40 h-20 overflow-hidden ">
-                                <Image
-                                    width={300}
-                                    height={300}
-                                    src={img2}
-                                    alt="logo"
-                                    className="h-50 w-full object-cover"
-                                />
-                            </div>
-                            <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-5 text-center">
-                                Read articles
-                            </h2>
-                            <div className="rounded-full w-40 h-20 overflow-hidden ">
-                                <Image
-                                    width={300}
-                                    height={300}
-                                    src={img1}
-                                    alt="logo"
-                                    className="h-50 w-full object-cover"
-                                />
+                            <div className="flex  items-center moveX">
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center ">
+                                    Send us a fax
+                                </h2>
+                                <div className="rounded-full w-40 h-20 overflow-hidden ">
+                                    <Image
+                                        width={300}
+                                        height={300}
+                                        src={img2}
+                                        alt="logo"
+                                        className="h-50 w-full object-cover"
+                                    />
+                                </div>
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-5 text-center">
+                                    Send us a fax
+                                </h2>
+                                <div className="rounded-full w-40 h-20 overflow-hidden ">
+                                    <Image
+                                        width={300}
+                                        height={300}
+                                        src={img1}
+                                        alt="logo"
+                                        className="h-50 w-full object-cover"
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </Link>
+
+                <Link href="/blog" onClick={() => setShowMenu(false)}>
+                    <div className="link origin-top relative border-y border-white">
+                        <h1 className="font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-5 text-center">
+                            Blog
+                        </h1>
+                        <div className="transition-all duration-1000 ease-in-out absolute flex top-0 bg-[#D3FD50] text-black opacity-0 hover:opacity-100">
+                            <div className="flex  items-center moveX">
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center ">
+                                    Read articles
+                                </h2>
+                                <div className="rounded-full w-40 h-20 overflow-hidden">
+                                    <Image
+                                        width={300}
+                                        height={300}
+                                        src={img2}
+                                        alt="logo"
+                                        className="h-50 w-full object-cover"
+                                    />
+                                </div>
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center">
+                                    Read articles
+                                </h2>
+                                <div className="rounded-full w-40 h-20 overflow-hidden ">
+                                    <Image
+                                        width={300}
+                                        height={300}
+                                        src={img1}
+                                        alt="logo"
+                                        className="h-50 w-full object-cover"
+                                    />
+                                </div>
+                            </div>
+
+                            <div className="flex  items-center moveX">
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw]  uppercase leading-[0.8] pt-5 text-center ">
+                                    Read articles
+                                </h2>
+                                <div className="rounded-full w-40 h-20 overflow-hidden ">
+                                    <Image
+                                        width={300}
+                                        height={300}
+                                        src={img2}
+                                        alt="logo"
+                                        className="h-50 w-full object-cover"
+                                    />
+                                </div>
+                                <h2 className="whitespace-nowrap font-myfont font-light text-[10vw] md:text-[5vw] uppercase leading-[0.8] pt-5 text-center">
+                                    Read articles
+                                </h2>
+                                <div className="rounded-full w-40 h-20 overflow-hidden ">
+                                    <Image
+                                        width={300}
+                                        height={300}
+                                        src={img1}
+                                        alt="logo"
+                                        className="h-50 w-full object-cover"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </Link>
             </div>
 
             <div className="link w-full text-4xl absolute bottom-2 flex justify-between text-white z-60 px-5">
                 <div className="flex items-center">
                     <MontrealTime />
                 </div>
-                <div className="">
-                    <Link href="/" className="pill">
+                <div className="flex gap-2">
+                    <Link href="https://facebook.com" className="pill">
                         FB
                     </Link>
-                    <Link href="/" className="pill">
+                    <Link href="https://instagram.com" className="pill">
                         IG
                     </Link>
-                    <Link href="/" className="pill">
+                    <Link href="https://linkedin.com" className="pill">
                         IN
                     </Link>
-                    <Link href="/" className="pill">
+                    <Link href="https://behance.net" className="pill">
                         BE
                     </Link>
                 </div>

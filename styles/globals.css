@@ -27,7 +27,7 @@ body {
 
 .moveX {
     animation-name: moveAnimation;
-    animation-duration: 50s;
+    animation-duration: 30s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -116,5 +116,26 @@ html, body {
 }
 
 
+.animate-ellipse{
+    /* Think of it as how long your string is. */
+    stroke-dasharray: 1000;
+    /* Think of it as sliding that string along the path.
+    If stroke-dashoffset: 0; → the string is back in place → stroke looks fully visible.
+    */
+    stroke-dashoffset: 0;
+    animation: draw 3s linear infinite;
+}
 
+
+@keyframes draw {
+    0% {
+        stroke-dashoffset: 1000;
+    }
+    50%{
+        stroke-dashoffset: 10;
+    }
+    100% {
+        stroke-dashoffset: -1000;
+    }
+}
 
