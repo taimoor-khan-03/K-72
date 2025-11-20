@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import MobileBlocker from "@/components/MobileBlocker";
 import PageTransition from "@/components/PageTransition";
 import "../styles/globals.css";
 import localFont from "next/font/local";
@@ -29,13 +30,12 @@ export default function RootLayout({
 }: Readonly<{
     children: React.ReactNode;
 }>) {
-
     return (
         <html lang="en">
             <body className={`${myFont.variable} antialiased`}>
-                <PageTransition >
-                {children}
-               </PageTransition>
+                <MobileBlocker>
+                    <PageTransition>{children}</PageTransition>
+                </MobileBlocker>
             </body>
         </html>
     );
